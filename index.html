@@ -9,22 +9,65 @@
         href="./cs/bootstrap.min.css"
     >
 </head>
-<body>
-    <div class="dropdown show mt-5 mx-5">
-        <a class="btn btn-secondary dropdown-toggle px-5 py-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          TKU
-        </a>
-      
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-      <script src="./js/jquery-3.2.1.slim.min.js"></script>
-      <script src="./js/popper.min.js"></script>
-      <script src="./js/bootstrap.min.js"></script>
+<body> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <p>Nav</p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <p>Home <span class="sr-only">(current)</span></p>
+        </li>
+        <li class="nav-item">
+          <p>Link</p>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            TKU
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./github.html">GitHub</a>
+            <a class="dropdown-item" href="./w1/intro.html">Intro</a>
+            <a class="dropdown-item" href="./w1/pokemon.html">Pokemon</a>
+            <a class="dropdown-item" href="./w2/imageGallery/imageGallery_bs.html">Image Gallery</a>
+            <a class="dropdown-item" href="./w3/div.html">Dropdown</a>
+            <a class="dropdown-item" href="./w4/div_tku60.html">TKU</a>
+          </div>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+        -->
+      </ul>
+      <!--
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      -->
+    </div>
+  </nav>
+  <script src="./js/jquery-3.2.1.slim.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
+<!--
+<div class="flex btn-group mt-5 mx-5">
+  <a class="btn btn-danger dropdown-toggle px-5 py-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    TKU
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="./w1/intro.html">Intro</a>
+    <a class="dropdown-item" href="./w1/pokemon.html">Pokemon</a>
+    <a class="dropdown-item" href="./w2/imageGallery/imageGallery_bs.html">Image Gallery</a>
+    <a class="dropdown-item" href="#">here</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+-->
